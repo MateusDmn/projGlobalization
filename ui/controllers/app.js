@@ -12,7 +12,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider,$loca
 }]);
 
 app.config(['$translateProvider', function ($translateProvider) {
-	var defaultLanguage = "de";
+	var defaultLanguage = "de";   //aqui voce pode fazer uma logiquinha pra saber onde o usuario está... daí você seta o idioma que voce quiser.
 	loadTranslate("en",readFile("en.txt"));
 	loadTranslate("de",readFile("de.txt"));
   function loadTranslate(lang, values){
