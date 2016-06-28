@@ -1,0 +1,11 @@
+{
+  "name": "asdasd",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Wesley",
+  "main": "server.js",
+  "devDependencies": {
+    "body-parser": "~1.12.0",
+    "express": "^4.13.4"
+  }
+}
